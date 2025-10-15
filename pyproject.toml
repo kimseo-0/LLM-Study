@@ -7,8 +7,10 @@ requires-python = ">=3.11"
 dependencies = [
     "anthropic>=0.69.0",
     "easyocr>=1.7.2",
+    "faiss-cpu>=1.12.0",
     "fastapi[all]>=0.118.0",
     "google-genai>=1.43.0",
+    "hf-xet>=1.1.10",
     "jupyter>=1.1.1",
     "langchain>=0.3.27",
     "langchain-chroma>=0.2.6",
@@ -18,6 +20,11 @@ dependencies = [
     "langchain-openai>=0.3.33",
     "pymupdf>=1.26.5",
     "pypdf>=6.1.1",
+    "pytesseract>=0.3.13",
     "python-multipart>=0.0.20",
+    "rank-bm25>=0.2.2",
+    "rich>=14.2.0",
+    "sentence-transformers>=5.1.1",
     "streamlit>=1.50.0",
+    "unstructured[local-inference,pdf]>=0.18.15",
 ]
